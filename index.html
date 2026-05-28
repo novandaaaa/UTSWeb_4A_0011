@@ -65,20 +65,21 @@
 </section>
 
 <section>
+    <h2 class="text-center mb-3">Genre</h2>
     <div class="container text-center">
-        <button class="btn btn-outline-light filter-btn">ALL</button>
-        <button class="btn btn-outline-light filter-btn">Action</button>
-        <button class="btn btn-outline-light filter-btn">Fantasy</button>
+        <button class="btn btn-outline-light filter-btn" data-genre="all">ALL</button>
+        <button class="btn btn-outline-light filter-btn" data-genre="action">Action</button>
+        <button class="btn btn-outline-light filter-btn" data-genre="fantasy">Fantasy</button>
     </div>
 </section>
 
 <section id="popular">
     <div class="container">
-        <h2 class="text-center mb-5 mt-4">Popular Manga</h2>
+        <h2 class="text-center mb-5 mt-5">Popular Manga</h2>
 
         <div class="row g-4">
 
-        <div class="col-md-4">
+        <div class="col-md-4 manga-item" data-genre="action">
             <div class="card manga-card">
                 <img src="https://upload.wikimedia.org/wikipedia/en/6/6c/Solo_Leveling_Volume_1_Cover.jpg" class="card-img-top">
                 <div class="card-body">
@@ -87,7 +88,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 manga-item" data-genre="fantasy">
                 <div class="card manga-card">
                     <img src="https://upload.wikimedia.org/wikipedia/en/9/90/One_Piece%2C_Volume_61_Cover_%28Japanese%29.jpg" class="card-img-top">
                     <div class="card-body">
