@@ -22,3 +22,9 @@ body{
 .manga-card:hover{
     transform: translateY(-10px);
 }
+
+.feature-box{
+    background-color: #1e293b;
+    padding: 40px;
+    border-radius: 10px;
+}
