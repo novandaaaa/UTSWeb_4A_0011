@@ -42,3 +42,42 @@ body{
 footer{
     background-color: black;
 }
+
+.light-mode{
+    background-color: white;
+    color: black;
+}
+
+.light-mode .navbar{
+    background-color: white;
+}
+
+.light-mode .navbar-brand {
+    color: black !important;
+}
+
+.light-mode .nav-link{
+    color: black !important;
+}
+
+.light-mode .hero h1,
+.light-mode .hero p {
+    color: black !important;
+}
+
+
+.light-mode .manga-card,
+.light-mode .feature-box,
+.light-mode .form-control,
+.light-mode .hero{
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.light-mode .bg-dark-section{
+    background-color: #dddddd;
+}
+
+.light-mode footer{
+    background-color: #cccccc;
+}
